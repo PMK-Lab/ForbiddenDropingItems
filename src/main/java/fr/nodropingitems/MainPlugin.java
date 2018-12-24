@@ -8,7 +8,7 @@ import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class MainPlugin extends JavaPlugin {
+public class MainPlugin extends JavaPlugin implements Listener {
 
 	@Override
 	public void onEnable() {
